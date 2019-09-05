@@ -1,0 +1,4 @@
+baseURL = "https://usrpro.com/"
+languageCode = "en-us"
+title = "USRPRO - Profesional Open Source contributors"
+theme = "dot"
