@@ -1,4 +1,57 @@
+DefaultContentLanguage = "en"
 baseURL = "https://usrpro.com/"
-languageCode = "en-us"
-title = "USRPRO - Profesional Open Source contributors"
 theme = "dot"
+
+# customize color
+[params]
+primaryColor = "#02007e"
+secondaryColor = "#f9f9f9"
+textColor = "#636363"
+textColorDark = "#242738"
+whiteColor = "#ffffff"
+
+[Languages]
+
+  # English Language
+  [Languages.en]
+  languageName = "en"
+  weight = 1
+  languageCode = "en-us"
+  title = "USRPRO - Profesional Mailu contributors"
+  dateFormat = "2 January 2006"
+  home = "Home"
+  logo = "/usr/pro"
+  copyright = "Content is Copyright © Mohlmann Solutions SRL 2019."
+  
+    # navigation
+    [Languages.en.menu]
+    
+      [[Languages.en.menu.main]]
+        weight = 2
+        name = "Publications"
+        url = "publications"
+        
+      [[Languages.en.menu.main]]
+        weight = 2
+        name = "Contact"
+        url = "contact"
+
+    # banner
+    [Languages.en.params.banner]
+      title = "Profesional Mailu contributors"
+      description = "We provide commercial support, improvements and hosting plans"
+      image = "images/banner.jpg"
+
+    # Topics
+    [Languages.en.params.topics]
+      title = "Our involvements"
+
+    # contact
+    [Languages.en.params.contact]
+      title = "Got Any Questions"
+      content = "Submit the form and confirm your email address at <a class='text-primary' href='https://formspree.io/'>Formspree</a> Then add the following lines to contact page YAML Front Matter."
+
+    # footer social icon
+    #[[Languages.en.socialIcon]]
+    #  icon = "ti-facebook"
+    #  linkURL = "#"
