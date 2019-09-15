@@ -5,7 +5,8 @@
       <h2 class="section-title text-primary">{{ .title }}</h2>
       <p>{{ .content }}</p>
         <form>
-          <input type="text" id="name" name="name" placeholder="Name" class="form-control mb-4 shadow rounded-0">
+          <input type="text" id="fname" name="fname" placeholder="First name" class="form-control mb-4 shadow rounded-0">
+          <input type="text" id="lname" name="lname" placeholder="Last name" class="form-control mb-4 shadow rounded-0">
           <input type="email" id="mail" name="mail" placeholder="Email" class="form-control mb-4 shadow rounded-0">
           <input type="text" id="subject" name="subject" placeholder="subject" class="form-control mb-4 shadow rounded-0">
           <textarea name="message" id="message" placeholder="Message" class="form-control mb-4 shadow rounded-0"></textarea>
@@ -17,7 +18,7 @@
         <script type="application/javascript">
           let path = '/mail/contact';
           function send(){ 
-              contact(path,'mail_basic.html',document.getElementById('subject').value,document.getElementById('name').value,"",document.getElementById('mail').value,document.getElementById('message').value,"",'confirm');
+              contact(path,'mail_basic.html',document.getElementById('subject').value,document.getElementById('fname').value,document.getElementById('lname').value,document.getElementById('mail').value,document.getElementById('message').value,"",'confirm');
           }
       </script>
       </div>
