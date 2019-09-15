@@ -1,5 +1,5 @@
 ---
-title: "Mailu Permanent Storage"
+title: "Mailu Persistent Storage"
 date: 2019-09-13T16:24:25+03:00
 draft: false
 ---
