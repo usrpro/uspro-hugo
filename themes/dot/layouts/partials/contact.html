@@ -3,14 +3,23 @@
     <div class="row">
       <div class="col-12">
       <h2 class="section-title text-primary">{{ .title }}</h2>
-      <p>{{ .content | safeHTML }}</p>
-        <form action="#">
+      <p>{{ .content }}</p>
+        <form>
           <input type="text" id="name" name="name" placeholder="Name" class="form-control mb-4 shadow rounded-0">
           <input type="email" id="mail" name="mail" placeholder="Email" class="form-control mb-4 shadow rounded-0">
           <input type="text" id="subject" name="subject" placeholder="subject" class="form-control mb-4 shadow rounded-0">
           <textarea name="message" id="message" placeholder="Message" class="form-control mb-4 shadow rounded-0"></textarea>
-          <button type="submit" value="send" class="btn btn-primary">Send</button>
+          <input class="btn btn-primary" onclick="javascript:send()" type="button" value="Send">
+          <div id="confirm">
+            <!-- ajax response comes here -->
+          </div>
         </form>
+        <script type="application/javascript">
+          let path = '/mail/contact';
+          function send(){ 
+              contact(path,'mail_basic.html',document.getElementById('subject').value,document.getElementById('name').value,"",document.getElementById('mail').value,document.getElementById('message').value,"",'confirm');
+          }
+      </script>
       </div>
     </div>
   </div>
