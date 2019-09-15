@@ -29,12 +29,12 @@ whiteColor = "#ffffff"
       [[Languages.en.menu.main]]
         weight = 2
         name = "Publications"
-        url = "publications"
+        url = "/publications"
         
       [[Languages.en.menu.main]]
         weight = 2
         name = "Contact"
-        url = "contact"
+        url = "/#contact"
 
     # banner
     [Languages.en.params.banner]
