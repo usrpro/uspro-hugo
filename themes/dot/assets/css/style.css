@@ -878,3 +878,19 @@ code{
   left: -10px;
   top: -3px;
 }
+
+.section.single {
+  min-height: 95vh;
+}
+
+header.banner {
+  height: 50vh;
+}
+
+#index {
+  min-height: 50vh;
+}
+
+#contact {
+  height: 100vh;
+}
