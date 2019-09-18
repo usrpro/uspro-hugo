@@ -1,10 +1,10 @@
 {{ "<!-- banner -->" | safeHTML }}
 <div class="container">
-    <div class="row">
-    <div class="col-lg-8 text-center mx-auto">
-    <h1 class="text-white mb-3">{{ .Site.Params.banner.title }}</h1>
-    <p class="text-white mb-4">{{ .Site.Params.banner.description }}</p>
-    </div>
+    <div class="row justify-content-center">
+        <div class="col-lg-8 text-center mx-auto">
+            <h1 class="text-white mb-3 landing-t font-weight-bold">{{ .Site.Params.banner.title }}</h1>
+        </div>
+        <p class="text-white text-center text-uppercase mb-4 landing-p">{{ .Site.Params.banner.description }}</p>
     </div>
 </div>
 {{ "<!-- /banner -->" | safeHTML }}
