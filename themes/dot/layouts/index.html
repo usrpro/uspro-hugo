@@ -5,7 +5,7 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-12 text-center">
-          {{with .Site.Params.topics.title}} <h2 class="section-title">{{ . }}</h2> {{ end }}
+          {{with .Site.Params.topics.title}} <h2 class="section-title text-underline">{{ . }}</h2> {{ end }}
         </div>
         {{ "<!-- topic-item -->" | safeHTML }}
         {{ range (where .Site.Pages "Type" "pages") }}

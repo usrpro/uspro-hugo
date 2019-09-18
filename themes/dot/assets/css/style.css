@@ -921,3 +921,7 @@ header.banner {
       letter-spacing: 2px;
   }
 }
+
+.text-underline {
+  text-decoration: underline var(--primary-color);
+}
