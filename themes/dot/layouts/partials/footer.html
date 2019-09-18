@@ -1,6 +1,13 @@
 {{ "<!-- footer -->" | safeHTML }}
-<footer class="section bg-primary text-white">
+<footer class="bg-primary text-white">
   <div class="container">
+    <div class="row">
+      {{ with .Site.GetPage "about" }}
+      {{ range .Pages }}
+        {{ .Title }}
+      {{ end }}
+      {{ end }}
+    </div>
     <div class="row">
       <div class="col-md-6">
         {{ with .Site.Params.copyright }} <p class="text-white">{{ .}}</p> {{ end }}
@@ -18,7 +25,7 @@
           {{ end }}
         </ul>
       </div>
-      <div class="col-12 text-md-left text-center">
+      <div class="col-12 text-md-left text-center text-bottom">
         <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
           <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" />
         </a>
