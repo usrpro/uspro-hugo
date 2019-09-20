@@ -1,41 +1,61 @@
 {{ "<!-- footer -->" | safeHTML }}
-<footer class="bg-primary text-white">
+<footer class="bg-primary text-white pt-3 ">
   <div class="container">
     <div class="row">
-      {{ with .Site.GetPage "about" }}
-      {{ range .Pages }}
-        {{ .Title }}
-      {{ end }}
-      {{ end }}
-    </div>
-    <div class="row">
-      <div class="col-md-6">
-        {{ with .Site.Params.copyright }} <p class="text-white">{{ .}}</p> {{ end }}
+      <div class="col-sm mb-2">
+          {{ with .Site.GetPage "about" }}
+          <div class="container">
+            <div class="row justify-content-center">
+              <ul class="list-group">
+                  <h3 class="text-white text-center">About Us</h3>
+                {{ range .Pages }}
+                  <li class="list-inline-item"><p class="p-0 m-0 text-capitalize"><a class="text-white d-inline-block ml-2" href="{{.Permalink}}" ><i class="{{ .Params.icon }} mr-2"></i>{{ .Title }}</a></p></li>
+                {{ end }}
+              </ul>
+              </div>
+            </div>
+          </div>
+        {{ end }}
+      <div class="col-sm">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class=" text-center">
+              <div class="text-md-center text-sm-left">
+                <p class="text-white">
+                  Modified theme from
+                  <a href="https://github.com/themefisher/dot-hugo-documentation-theme" class="text-white font-weight-bold">Themefisher</a>
+                </p>
+              </div>
+              <ul class="list-inline">
+                {{ range .Site.Params.socialIcon }}
+                  <li class="list-inline-item text-centred"><a href="{{.linkUrl}}"><img src="{{ .logo_icon }}" class="img-fluid p-0 mb-2" width="25" alt=""></a><a class="text-white d-inline-block p-2" href="{{ .linkURL }}"><i class="{{ .icon }}"></i></a></li>
+                {{ end }}
+              </ul>
+              <div class="col-sm-12">
+                {{ with .Site.Params.copyright }} <p class="text-white">{{ . }}</p> {{ end }}
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="col-md-6 text-md-right text-left">
-        <p class="text-white">
-          Modified theme from
-          <a href="https://github.com/themefisher/dot-hugo-documentation-theme" class="text-white font-weight-bold">Themefisher</a>
+      <div class="col-sm">
+        <div class="container">
+          <div class="row justify-content-center">
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+              <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" />
+            </a>
+          </div>
+        </div>
+        <div class="text-center">
+           <p class="text-white pt-2"> Content on this website is licensed under a
+          <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" class="text-white font-weight-bold">
+            Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License
+          </a>.
         </p>
-      </div>
-      <div class="col-md-4 text-md-right text-center">
-        <ul class="list-inline mb-3">
-          {{ range .Site.Params.socialIcon }}
-          <li class="list-inline-item"><a class="text-white d-inline-block p-2" href="{{ .linkURL }}"><i class="{{ .icon }}"></i></a></li>
-          {{ end }}
-        </ul>
-      </div>
-      <div class="col-12 text-md-left text-center text-bottom">
-        <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
-          <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" />
-        </a>
-        Content on this website is licensed under a
-        <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" class="text-white font-weight-bold">
-          Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License
-        </a>.
-      </div>
+        </div>
     </div>
   </div>
+</div>
 </footer>
 {{ "<!-- /footer -->" | safeHTML }}
 
