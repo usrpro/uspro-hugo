@@ -1,6 +1,7 @@
 DefaultContentLanguage = "en"
 baseURL = "https://usrpro.com/"
 theme = "dot"
+enableGitInfo = true
 
 # customize color
 [params]
