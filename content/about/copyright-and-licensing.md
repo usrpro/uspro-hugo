@@ -2,6 +2,7 @@
 title: "Copyright and Licensing"
 date: 2019-09-24T16:09:54+03:00
 draft: true
+weight: 2
 ---
 
 ## Mailu Features and projects
@@ -16,7 +17,7 @@ All code we contribute to the Mailu repository, whether paid or not, follow the 
 
 ### Limitations
 
-Any project that are undertaken by us might rely on libraries of third parties. The design of each feature we offer will be based on libraries that are compatible with MIT. This excludes GPL-like licensed libraries. Usrpro and Mohlmann Solutions SRL do not assume any responsibly for copyright or license infringement caused by contributions from outside our organization.\
+Any project that are undertaken by us might rely on libraries of third parties. The design of each feature we develop will be based on libraries that are compatible with MIT. This excludes GPL-like licensed libraries. Usrpro and Mohlmann Solutions SRL do not assume any responsibly for copyright or license infringement caused by contributions from outside our organization.
 
 ### Guarantees
 
@@ -41,4 +42,4 @@ The content on this website is our business offering. We allow it to be copied a
 
 ### Elsewhere
 
-All content published willingly by usrpro members outside this website, do not have the (CC BY-NC-ND 4.0) restriction applied. Design proposals, project documentation and other publications transmitted to Mailu or other projects will automatically fall under the project's license where the work is submitted to. If the same content is published on our website and inside a project **and** it was published by a usrpro member, the license of the project applies.
+All content published willingly by usrpro members outside this website, do not have the (CC BY-NC-ND 4.0) restriction applied. Design proposals, project documentation and other publications transmitted to Mailu or other projects will automatically fall under the project's license where the work is submitted to. If the same content is published on our website and inside a project **and** it was published by an usrpro member, the license of the project applies.
