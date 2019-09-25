@@ -22,7 +22,8 @@ whiteColor = "#ffffff"
   dateFormat = "2 January 2006"
   home = "Home"
   logo = "/usr/pro"
-  copyright = "Content is Copyright © Mohlmann Solutions SRL 2019."
+  copyright = 'Content on this website is Copyright © Mohlmann Solutions SRL 2019.'
+  license = 'Licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.'
 
     # navigation
     [Languages.en.menu]
