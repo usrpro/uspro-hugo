@@ -66,4 +66,8 @@ whiteColor = "#ffffff"
       icon = "ti-linkedin"
       linkURL = "https://www.linkedin.com/company/mohlmann-solutions-srl"
 
+    [[Languages.en.socialIcon]]
+      icon = "ti-github"
+      linkURL = "https://github.com/usrpro"
+
 
