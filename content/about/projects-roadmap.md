@@ -1,8 +1,8 @@
 ---
 title: "Projects Roadmap"
 date: 2019-09-20T18:25:44+03:00
-draft: true
-weight: 1
+draft: false
+weight: 2
 ---
 All features that usrpro picks for implementation follow the same roadmap. We wish to prevent situations where persons invest into a feature which will not gain enough traction to take off. Therefore we prefer not to receive specific funding until the design of a feature is published. Effectively, this puts any project into negative budget, for which usrpro assumes the risk.
 

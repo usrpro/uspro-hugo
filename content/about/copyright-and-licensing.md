@@ -1,8 +1,8 @@
 ---
 title: "Copyright and Licensing"
 date: 2019-09-24T16:09:54+03:00
-draft: true
-weight: 2
+draft: false
+weight: 3
 ---
 
 ## Mailu Features and projects

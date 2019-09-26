@@ -1,8 +1,8 @@
 ---
 title: "Company"
 date: 2019-09-18T15:19:21+03:00
-draft: true
-weight: 0
+draft: false
+weight: 1
 ---
 Uspro is a brand name of Mohlmann Solutions SRL (limited liabilty company) which has its seat in Sibiu, Romania. We are registed at the trade register of Sibiu under number `J32/829/21.06.2016`. Our international VAT number is `RO36227358`. The company is owned by Tim Mohlmann, nicknamed `muhlemmer`. It has 2 employees currently.
 

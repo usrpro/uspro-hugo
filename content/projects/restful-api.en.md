@@ -1,7 +1,7 @@
 ---
 title: "RESTful API"
 date: 2019-09-19T11:29:00+03:00
-draft: true
+draft: false
 gh_issue: 445
 ---
 A RESTful API would allow third party applications to interact with Mailu in a defined way. Currently the Admin service exposes an internal API for all database interaction, like authentication, mailbox checking, sieve management and more. The API is however not engineered for external usage yet.
