@@ -29,12 +29,48 @@ whiteColor = "#ffffff"
     [Languages.en.menu]
 
       [[Languages.en.menu.main]]
-        weight = 2
+        weight = 1
         name = "Publications"
-        url = "/publications"
+        url = "publications"
 
       [[Languages.en.menu.main]]
         weight = 2
+        name = "Projects"
+        url = "/projects"
+        hasChildren = true
+
+          [[Languages.en.menu.main]]
+          parent = "Projects"
+          weight = 1
+          name = "RESTful API"
+          url = "/projects/restful-api"
+
+      [[Languages.en.menu.main]]
+        weight = 3
+        name = "About"
+        url = "/about"
+        hasChildren = true
+
+          [[Languages.en.menu.main]]
+          parent = "About"
+          weight = 1
+          name = "Company"
+          url = "/about/company"
+          
+          [[Languages.en.menu.main]]
+          parent = "About"
+          weight = 2
+          name = "Roadmaps"
+          url = "/about/projects-roadmap"
+
+          [[Languages.en.menu.main]]
+          parent = "About"
+          weight = 3
+          name = "Copyright info"
+          url = "/about/copyright-and-licensing"
+
+      [[Languages.en.menu.main]]
+        weight = 4
         name = "Contact"
         url = "/#contact"
 
@@ -46,7 +82,7 @@ whiteColor = "#ffffff"
 
     # Topics
     [Languages.en.params.topics]
-      title = "Our involvements"
+      title = "Discover"
 
     # contact
     [Languages.en.params.contact]
