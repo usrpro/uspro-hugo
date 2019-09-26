@@ -925,3 +925,7 @@ header.banner {
 .text-underline {
   text-decoration: underline var(--primary-color);
 }
+
+li {
+  font-size: 15px;
+}
