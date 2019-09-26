@@ -16,9 +16,19 @@
       </div>
       <div class="col-lg-9">
         <div class="p-5 bg-white">
-          <h2 class="mb-5">{{ .Title }}</h2>
+          <h1 class="mb-5">{{ .Title }}</h1>
           {{ if .Content }}
-          <div class="content">{{.Content}}</div>
+          <div class="content">
+            {{ if .Params.gh_issue }}
+            <h3>
+              GitHub issue: 
+              <a href="https://github.com/Mailu/Mailu/issues/{{ .Params.gh_issue }}">
+                #{{ .Params.gh_issue }}
+              </a>
+            </h3>
+            {{ end }}
+            {{.Content}}
+          </div>
           {{ else }}
           <div class="bg-gray p-4">
             <ul class="page-list">
