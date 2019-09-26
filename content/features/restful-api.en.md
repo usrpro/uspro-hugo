@@ -4,7 +4,7 @@ date: 2019-09-19T11:29:00+03:00
 draft: true
 gh_issue: 445
 ---
-A RESTful API would allow third party applications to interact with Mailu in a defined way. Currently the Admin service exposes an API for all database interaction, like authentication, mailbox checking, sieve management and more. The API is however not engineered for external usage yet.
+A RESTful API would allow third party applications to interact with Mailu in a defined way. Currently the Admin service exposes an internal API for all database interaction, like authentication, mailbox checking, sieve management and more. The API is however not engineered for external usage yet.
 
 ## Current situation
 
@@ -18,24 +18,33 @@ Furthermore, this allows us to separate the Admin web interface from the actual 
 
 ## Scope
 
-This project will follow our general [road map](/about/projects-roadmap).
+[Usrpro](/about/company/) offers to implement this feature.  This project will follow our general [road map](/about/projects-roadmap). The roadmap explains thourougly which steps we will undertake to implement this feature and its crowd-funding. Untill the "alpha testing" phase we promise to deliver:
 
-Usrpro, a division of Mohlmann Solutions SRL, Romania, offers to implement this feature. Each phase will have a estimated budget assigned and will be put into motion once sufficient funding is acquired. The following scope will be implemented and delivered until the Alpha testing phase:
+- Implementation written in the chosen framework;
+- Unit tests for all endpoint handlers;
+- API documentation;
 
-- Implementation written in the chosen framework
-- Unit tests for all endpoint handlers
-- API documentation
+From the alpha phase untill merge we will work on integration testing, bug-fixing and updates as per reviewers requests. THose phases heavily rely on community feedback. Once the code for this feature is merged, we consider our scope delivered.
+
+The exact integration with the Admin web UI will need to be decided during the design phase.
 
 ### Licensing
 
-Development will be done inside a public repository inside the usrpro organization of Github. All contributions will carry the MIT license, just like the Mailu upstream repository. Note that the license excludes the possibility of GPL-like licensed libraries.
-
-### Warranty
-
-After acceptance into the "Beta testing phase", usrpro will commit in solving any production critical bugs inside the submitted code. Usrpro will do so in a timely fashion within allowance of the usual review process of pull requests against Mailu. However, the limitation of warranty as stated in the MIT license remains in effect for this addition as part of Mailu:
-
-> THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Development will be done inside a public repository inside the usrpro organization of Github. All contributions will carry the MIT license, just like the Mailu upstream repository. Note that the license excludes the possibility of GPL-like licensed libraries and the design will depend on this restriction. During the devlopment of this feature we commit to some additional guarantees outside the MIT license's warranty disclaimer. Please refer to our [Copyright and Licensing](/about/copyright-and-licensing/) page for more information.
 
 ## Costs
 
-Usrpro believes it can benefit from this added functionality. We are looking for a partial funding of the development effort, so that the investment burden can be shared among other interested parties. As such we are able to offer works on the project as low as 15 euro per hour. Depending on the outcome of the design phase, as actual budget can be appointed.
+Usrpro believes it can benefit from this added functionality. We are looking for a partial funding of the development effort, so that the investment burden can be shared among other interested parties. As such we are able to offer works on the project as low as 15 euro per hour. After the design phase is concluded, we are able to do a final man-hour budget. The final budget will be our binding offer for implementing our scope. This menas that the implementation costs can't rise once we start crowdfunding and we assume responsibilty for delivering the project within budget.
+
+## Project overview
+
+| Phase          | Status      | Man hours | Calculation  |
+| -------------- | ----------- | --------- | ------------ |
+| Initialization | In progress | -         | -            |
+| Design         | Pending     | 16        | Preleminairy |
+| Crowdfunding   | Pending     | -         | -            |
+| Implementation | Pending     | 40        | Preleminairy |
+| Alpha testing  | Pending     | 8         | Preleminairy |
+| Merge          | Pending     | 4         | Preleminairy |
+| Beta testing   | Pending     | 8         | Preleminairy |
+| **Project total** |          | **76**    | Preleminairy |

@@ -21,13 +21,13 @@ Any project that are undertaken by us might rely on libraries of third parties. 
 
 ### Guarantees
 
-The MIT license disclaims warranty of any kind. However, as a provider of funded features, we want to provide a trusted workflow for our investors. Therefore we commit to the following promisses:
+Throught the MIT license we disclaim warranty of any kind. However, as a provider of funded features, we want to provide a trusted workflow for our investors. Therefore we commit to the following promisses:
 
 1. In Alpha testing, our code will receive performance improvements, bug fixes and refactoring based on peer and investor review;
 2. Code that is in a pull request will receive bug fixes and compatibility fixes bases on Mailu's review policy;
 3. After merge, we will provide for bug-fixes for anything this feature broke, based on a best effort time span;
 
-Outside these promises, we still waive any liability as laid out in the MIT license.
+Outside these promises, we still waive any direct or indirect liability as laid out in the MIT license.
 
 ## Other projects
 
