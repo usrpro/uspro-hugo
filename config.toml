@@ -31,7 +31,7 @@ whiteColor = "#ffffff"
       [[Languages.en.menu.main]]
         weight = 1
         name = "Publications"
-        url = "publications"
+        url = "/publications"
 
       [[Languages.en.menu.main]]
         weight = 2
