@@ -5,7 +5,7 @@ node {
         checkout scm
     }
     stage("Build image") {
-        GITHUB_PROJECT = "ms-hugo"
+        GITHUB_PROJECT = "usrpro-hugo"
         echo "Starting build for branch ${env.BRANCH_NAME} of project ${GITHUB_PROJECT}"
         sh 'docker build -t img .'
     }
