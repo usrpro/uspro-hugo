@@ -19,7 +19,7 @@ Furthermore, this allows us to separate the Admin web interface from the actual 
 
 ## Scope
 
-[Usrpro](/about/company/) offers to implement this feature.  This project will follow our general [road map](/about/projects-roadmap). The roadmap explains thourougly which steps we will undertake to implement this feature and its crowd-funding. Untill the "alpha testing" phase we promise to deliver:
+[Usrpro](/about/company/) offers to implement this feature.  This project will follow our general [road map](/about/projects-roadmap). The roadmap explains thourougly which steps we will undertake to implement this feature and its crowd-funding. Until the "alpha testing" phase we promise to deliver:
 
 - Implementation written in the chosen framework;
 - Unit tests for all endpoint handlers;
@@ -35,7 +35,7 @@ Development will be done inside a public repository inside the usrpro organizati
 
 ## Costs
 
-Usrpro believes it can benefit from this added functionality. We are looking for a partial funding of the development effort, so that the investment burden can be shared among other interested parties. As such we are able to offer works on the project as low as 15 euro per hour. After the design phase is concluded, we are able to do a final man-hour budget. The final budget will be our binding offer for implementing our scope. This menas that the implementation costs can't rise once we start crowdfunding and we assume responsibilty for delivering the project within budget.
+Usrpro believes it can benefit from this added functionality. We are looking for a partial funding of the development effort, so that the investment burden can be shared among other interested parties. As such we are able to offer works on the project as low as 15 euro per hour. After the design phase is concluded, we are able to do a final man-hour budget. The final budget will be our binding offer for implementing our scope. This means that the implementation costs can't rise once we start crowdfunding and we assume responsibilty for delivering the project within budget.
 
 ## Project overview
 
