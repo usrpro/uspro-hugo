@@ -9,24 +9,53 @@ Introduction
 
 ## Current situation
 
-CalDAV and CartDAV synchronization capable webmail client is missing. 
+Basic CalDAV and CartDAV superset protocols are supported by Radicale, which provides functionality to any third party webmail client that would support these protocols, but ships only as a server solution.
+
 
 ## Added funtionality
 
 https://sogo.nu/
 
-SOGo would act as a middleware and client to provide a more feature complete webmail experience that would bring to the table the ability to synchronise 
-and manage tasks, contacts and calendaring events in a cross-platform way across multiple clients.
+SOGO would be given as an option to replace Radicale.
+
+SOGO is a full, standard compliant, server and client solution that supports CalDAV, CardDAV, GroupDAV and synchronization.
+
+- It works with existing IMAP, SMTP, LDAP and database servers.
+
+- It provides authentication either by LDAP or SQL RDBMS.
+
+Among its many features it stands out because of its support for:
+
+- Two way synchronization achieved with Microsoft ActiveSync capable mobile devices or Microsoft Outlook.
+    - sync contacts, events, tasks, e-mails.
+
+- Comes with a modern webmail client interface.
+
+- Provides support for Mozilla Thunderbird/Lightning clients.
+
+- Compatible with Apple IOS Calendar application / Mac AddressBook application.
+
+- S/MIME support, provides the opportunity to send encrypted e-mails.
+
+#### Limitations and vulnerabilities:
+
+- Sogo requires SQL rmdbs or LDAP access in order to authenticate users and store its admin privileged accounts.
+
+- It requires access to the IMAP server in order to get inbox data either to its webmail or to serve it to other third e-mail clients e-mail clients.
+
+- It also requires access to the SMTP server in order enable users to send e-mails.
 
 ## Scope
 
 [Usrpro](/about/company/) offers to implement this feature.  This project will follow our general [road map](/about/projects-roadmap). The roadmap explains thourougly which steps we will undertake to implement this feature and its crowd-funding. Untill the "alpha testing" phase we promise to deliver:
 
-- Integration of dockerized SOGo into the existing Mailu architecture. 
+- Updated configuration files providing SOGo or Radicale as an option.
+
+- Integration of dockerized SOGo into the existing Mailu project architecture. 
 
 ### Licensing
 
-Development will be done inside a public repository inside the usrpro organization of Github. All contributions will carry the MIT license, just like the Mailu upstream repository. Note that the license excludes the possibility of GPL-like licensed libraries and the design will depend on this restriction. During the devlopment of this feature we commit to some additional guarantees outside the MIT license's warranty disclaimer. Please refer to our [Copyright and Licensing](/about/copyright-and-licensing/) page for more information.
+Development will be done inside a public repository inside the usrpro organization of Github. All contributions will carry the MIT license, just like the Mailu upstream repository. Note that the license excludes the possibility of GPL-like licensed libraries and the design will depend on this restriction. During the development of this feature we commit to some additional guarantees outside the MIT license's warranty disclaimer. Please refer to our [Copyright and Licensing](/about/copyright-and-licensing/) page for more information.
 
 ## Costs
 
