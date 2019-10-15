@@ -8,10 +8,10 @@ gh_issue: 545
 
 No support for adding plugins to Roundcube Webmail.
 
-## Added funtionality
+## Added functionality
 
 Custom plugins available to Roundcube webmail client.
-The Webmail client will be able to take aditional plugins for installation from environment, providing a more extensible and feature complete client and better user experience.
+The Webmail client will be able to take additional plugins for installation from environment, providing a more extensible and feature complete client and better user experience.
 
 ## Scope
 
@@ -26,17 +26,17 @@ Development will be done inside a public repository inside the usrpro organizati
 
 ## Costs
 
-Usrpro believes it can benefit from this added functionality. We are looking for a partial funding of the development effort, so that the investment burden can be shared among other interested parties. As such we are able to offer works on the project as low as 15 euro per hour. After the design phase is concluded, we are able to do a final man-hour budget. The final budget will be our binding offer for implementing our scope. This menas that the implementation costs can't rise once we start crowdfunding and we assume responsibilty for delivering the project within budget.
+Usrpro believes it can benefit from this added functionality. We are looking for a partial funding of the development effort, so that the investment burden can be shared among other interested parties. As such we are able to offer works on the project as low as 15 euro per hour. After the design phase is concluded, we are able to do a final man-hour budget. The final budget will be our binding offer for implementing our scope. This means that the implementation costs can't rise once we start crowdfunding and we assume responsibility for delivering the project within budget.
 
 ## Project overview
 
-| Phase          | Status      | Man hours | Calculation  |
-| -------------- | ----------- | --------- | ------------ |
-| Initialization | In progress | -         | -            |
-| Design         | Pending     | 1         | Preleminairy |
-| Crowdfunding   | Pending     | -         | -            |
-| Implementation | Pending     | 1         | Preleminairy |
-| Alpha testing  | Pending     | 1         | Preleminairy |
-| Merge          | Pending     | 0         | Preleminairy |
-| Beta testing   | Pending     | 1         | Preleminairy |
-| **Project total** |          | **4**     | Preleminairy |
+| Phase          | Status      | Man hours | Calculation |
+| -------------- | ----------- | --------- | ----------- |
+| Initialization | In progress | -         | -           |
+| Design         | Pending     | 1         | Preliminary |
+| Crowdfunding   | Pending     | -         | -           |
+| Implementation | Pending     | 1         | Preliminary |
+| Alpha testing  | Pending     | 1         | Preliminary |
+| Merge          | Pending     | 0         | Preliminary |
+| Beta testing   | Pending     | 1         | Preliminary |
+| **Project total** |          | **4**     | Preliminary |

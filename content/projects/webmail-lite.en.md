@@ -9,7 +9,7 @@ gh_issue: 518
 https://afterlogic.org/webmail-lite
 Webmail-lite isn't available as a dockerized webmail client for Mailu. 
 
-## Added funtionality
+## Added functionality
 
 Provide Webmail-lite as a Mailu webmail client option running inside Docker.
 
@@ -30,13 +30,13 @@ Usrpro believes it can benefit from this added functionality. We are looking for
 
 ## Project overview
 
-| Phase          | Status      | Man hours | Calculation  |
-| -------------- | ----------- | --------- | ------------ |
-| Initialization | In progress | -         | -            |
-| Design         | Pending     | 1         | Preleminairy |
-| Crowdfunding   | Pending     | -         | -            |
-| Implementation | Pending     | 1         | Preleminairy |
-| Alpha testing  | Pending     | 1         | Preleminairy |
-| Merge          | Pending     | 0         | Preleminairy |
-| Beta testing   | Pending     | 1         | Preleminairy |
-| **Project total** |          | **4**     | Preleminairy |
+| Phase          | Status      | Man hours | Calculation |
+| -------------- | ----------- | --------- | ----------- |
+| Initialization | In progress | -         | -           |
+| Design         | Pending     | 1         | Preliminary |
+| Crowdfunding   | Pending     | -         | -           |
+| Implementation | Pending     | 1         | Preliminary |
+| Alpha testing  | Pending     | 1         | Preliminary |
+| Merge          | Pending     | 0         | Preliminary |
+| Beta testing   | Pending     | 1         | Preliminary |
+| **Project total** |          | **4**     | Preliminary |
